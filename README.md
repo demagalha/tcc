@@ -1,6 +1,8 @@
 # tcc
 Simplesmente um local para armazenar o **Trabalho de Conclusão de Curso** do aluno **André Demetrio de Magalhães**, da **Universidade Federal de Santa Catarina (UFSC) - Curso de Graduação em Engenharia Mecânica**.  Embora de responsabilidade e obrigação da coordenação do curso, o arquivo final não é depositado no repositório oficial da universidade, portanto aqui o deixo disponível para a eternidade.
 
+>Este arquivo serve como um breve resumo onde levanto alguns pontos principais do trabalho. Ele não substitui o trabalho original, tanto que a maior parte das ideias aqui expostas não é acompanhada de citações ou no caso de equações, muitos dos termos não são explicados. Deve se procurar no Trabalho de Conclusão de Curso para maior esclarecimento.
+
 ## Ideia e Contexto
 Perto do fim do curso de graduação, surgiu a necessidade de escolher um tema para o trabalho de conclusão de curso (TCC). Entre tantas opções, sempre me inclinei para temas relacionados ao método dos elementos finitos, dada minha familiaridade com essa abordagem durante as atividades de extensão e pesquisa ao longo da graduação. Após considerações, defini um tema que abordava "a implementação (em elementos finitos) de um modelo de campo de fase para otimização de topologia estrutural".
 
@@ -37,8 +39,21 @@ A Modelagem de campo de fase é uma abordagem utilizada em várias áreas da fí
 
 A imagem acima mostra um fenômeno conhecido por decomposição espinodal. A decomposição espinodal é um fenômeno em que uma mistura homogênea de duas fases sofre uma separação espontânea em duas fases distintas. Isso ocorre devido a flutuações termodinâmicas no sistema que levam a uma instabilidade na mistura. Ao longo do tempo, essas flutuações crescem e as fases separadas se tornam cada vez mais distintas, resultando em uma microestrutura característica.
 
+Pode-se indagar onde e como isso tem a ver com otimização estrutural. O fenômeno acima é modelado pela equação de _Cahn-Hilliard_.
 
+<p align="center" width="100%">
+    <img width="25%" src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%3D%5Cnabla%5Ccdot%5Cleft%5BM%28c%29%5Cnabla%28f%28c%29-%5Clambda%5CDelta%20c%29%5Cright%5D"> 
+</p>
 
+Uma explicação mais detalhada é encontrada dentro do próprio trabalho. De forma geral, alguns pontos gerais: a solução da equação determina a evolução no tempo de _c_ (o parâmetro de ordem), onde 0 indica a presença de uma fase e 1 a presença de outra. Dadas condições de contorno e condição inicial para c (é uma equação dependente do tempo) , a solução é equivalente a minimizar o seguinte funcional energético.
+
+<p align="center" width="100%">
+    <img width="25%" src="https://latex.codecogs.com/svg.latex?min%20%5C%3B%20E%28c%29%3D%5Cint_%7B%5COmega%7D%28f%28c%29&plus;%5Cfrac%7B%5Clambda%7D%7B2%7D%7C%5Cnabla%20c%7C%5E2%29%5C%2Cd%5COmega%20%5C%3B..."> 
+</p>
+
+> ... dado as restrições do problema (restrição volumétrica)
+
+O grande "pulo do gato" é resolver uma equação de Cahn-Hilliard um pouco modificada, onde se insira também no funcional energético a energia elástica proveniente das equações da elasticidade linear (a _compliance_, _"stored strain energy", etc, é a energia elástica armazenada durante a deformação). Então, ao resolver um sistema que engloba essa equação de Cahn-Hilliard modificada junto as equações da elasticidade linear, o resultado final obtido no tempo é um resultado ótimo do ponto de vista energético! E uma das parcelas de energia a ser minimizada é a que corresponde a _compliance_ da estrutura. Obviamente, não é tão simples como aparenta. Mas a ideia geral é essa, e bem melhor discutida no trabalho
 
 ![exemplo viga em formato L](/img/lshape.gif)
 
