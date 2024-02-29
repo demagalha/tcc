@@ -13,8 +13,8 @@ Ao discutir otimização no contexto matemático, é crucial definir a função 
     <a href="https://latex.codecogs.com/svg.image?\int_{\Omega}\sigma(u):\epsilon(u)\;d\Omega#gh-light-mode-only">
         <img width="15%" src="https://latex.codecogs.com/svg.image?\int_{\Omega}\sigma(u):\epsilon(u)\;d\Omega">
     </a>
-    <a href="https://latex.codecogs.com/svg.image?{\color{Gray}\int_{\Omega}\sigma(u):\epsilon(u)\;d\Omega}#gh-dark-mode-only">
-        <img width="15%" src="https://latex.codecogs.com/svg.image?{\color{Gray}\int_{\Omega}\sigma(u):\epsilon(u)\;d\Omega}">
+    <a href="https://latex.codecogs.com/svg.image?{\color{White}\int_{\Omega}\sigma(u):\epsilon(u)\;d\Omega}#gh-dark-mode-only">
+        <img width="15%" src="https://latex.codecogs.com/svg.image?{\color{White}\int_{\Omega}\sigma(u):\epsilon(u)\;d\Omega}">
     </a>
 </p>
 
@@ -23,8 +23,8 @@ Ao discutir otimização no contexto matemático, é crucial definir a função 
     <a href="https://latex.codecogs.com/svg.image?\int_{\Omega}\bold{f}\cdot\bold{u}\;d\Omega+\int_{\Gamma_N}\bold{T}\cdot\bold{u}\;d\Gamma#gh-light-mode-only">
         <img width="20%" src="https://latex.codecogs.com/svg.image?\int_{\Omega}\bold{f}\cdot\bold{u}\;d\Omega+\int_{\Gamma_N}\bold{T}\cdot\bold{u}\;d\Gamma">
     </a>
-        <a href="\color{Gray}\int_{\Omega}\bold{f}\cdot\bold{u}\;d\Omega+\int_{\Gamma_N}\bold{T}\cdot\bold{u}\;d\Gamma}#gh-dark-mode-only">
-        <img width="20%" src="\color{Gray}\int_{\Omega}\bold{f}\cdot\bold{u}\;d\Omega+\int_{\Gamma_N}\bold{T}\cdot\bold{u}\;d\Gamma}">
+        <a href="https://latex.codecogs.com/svg.image?{\color{White}\int_{\Omega}\bold{f}\cdot\bold{u}\;d\Omega+\int_{\Gamma_N}\bold{T}\cdot\bold{u}\;d\Gamma}#gh-dark-mode-only">
+        <img width="20%" src="https://latex.codecogs.com/svg.image?{\color{White}\int_{\Omega}\bold{f}\cdot\bold{u}\;d\Omega+\int_{\Gamma_N}\bold{T}\cdot\bold{u}\;d\Gamma}">
     </a>
 </p>
 
@@ -43,7 +43,7 @@ Existem N diferentes métodos para otimização estrutural presentes na literatu
         <img width="10%" src="https://latex.codecogs.com/svg.image?\bold{C}=\rho^p\bold{C_0}">
     </a>
     <a href="https://latex.codecogs.com/svg.image?\bold{C}=\rho^p\bold{C_0}#gh-dark-mode-only">
-        <img width="10%" src="https://latex.codecogs.com/svg.image?{\color{Gray}\bold{C}=\rho^p\bold{C_0}}">
+        <img width="10%" src="https://latex.codecogs.com/svg.image?{\color{White}\bold{C}=\rho^p\bold{C_0}}">
     </a>
 </p>
 
@@ -64,8 +64,8 @@ Pode-se indagar onde e como isso tem a ver com a otimização estrutural. O fen�
     <a href="https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%3D%5Cnabla%5Ccdot%5Cleft%5BM%28c%29%5Cnabla%28f%28c%29-%5Clambda%5CDelta%20c%29%5Cright%5D#gh-light-mode-only">
         <img width="25%" src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%3D%5Cnabla%5Ccdot%5Cleft%5BM%28c%29%5Cnabla%28f%28c%29-%5Clambda%5CDelta%20c%29%5Cright%5D">
     </a>
-    <a href="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BGray%7D%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%20%3D%20%5Cnabla%20%5Ccdot%20%5Cleft%5B%20M%28c%29%20%5Cnabla%20%28f%28c%29%20-%20%5Clambda%20%5CDelta%20c%29%20%5Cright%5D%7D#gh-dark-mode-only">
-        <img width="25%" src="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BGray%7D%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%20%3D%20%5Cnabla%20%5Ccdot%20%5Cleft%5B%20M%28c%29%20%5Cnabla%20%28f%28c%29%20-%20%5Clambda%20%5CDelta%20c%29%20%5Cright%5D%7D">
+    <a href="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BWhite%7D%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%20%3D%20%5Cnabla%20%5Ccdot%20%5Cleft%5B%20M%28c%29%20%5Cnabla%20%28f%28c%29%20-%20%5Clambda%20%5CDelta%20c%29%20%5Cright%5D%7D#gh-dark-mode-only">
+        <img width="25%" src="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BWhite%7D%5Cfrac%7B%5Cpartial%20c%7D%7B%5Cpartial%20t%7D%20%3D%20%5Cnabla%20%5Ccdot%20%5Cleft%5B%20M%28c%29%20%5Cnabla%20%28f%28c%29%20-%20%5Clambda%20%5CDelta%20c%29%20%5Cright%5D%7D">
     </a>
 </p>
 
@@ -75,8 +75,8 @@ Uma explicação mais detalhada é encontrada dentro do próprio trabalho. De fo
     <a href="https://latex.codecogs.com/svg.latex?min%20%5C%3B%20E%28c%29%3D%5Cint_%7B%5COmega%7D%28f%28c%29&plus;%5Cfrac%7B%5Clambda%7D%7B2%7D%7C%5Cnabla%20c%7C%5E2%29%5C%2Cd%5COmega%20%5C%3B...#gh-light-mode-only">
         <img width="30%" src="https://latex.codecogs.com/svg.latex?min%20%5C%3B%20E%28c%29%3D%5Cint_%7B%5COmega%7D%28f%28c%29&plus;%5Cfrac%7B%5Clambda%7D%7B2%7D%7C%5Cnabla%20c%7C%5E2%29%5C%2Cd%5COmega%20%5C%3B..."> 
     </a>
-        <a href="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BGray%7DE%28c%29%20%3D%20%5Cint_%7B%5COmega%7D%20%28f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%7C%5Cnabla%20c%7C%5E2%29%20%5C%2C%20d%5COmega%20%5C%3B...%7D#gh-dark-mode-only"">
-        <img width="30%" src="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BGray%7DE%28c%29%20%3D%20%5Cint_%7B%5COmega%7D%20%28f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%7C%5Cnabla%20c%7C%5E2%29%20%5C%2C%20d%5COmega%20%5C%3B...%7D"> 
+        <a href="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BWhite%7DE%28c%29%20%3D%20%5Cint_%7B%5COmega%7D%20%28f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%7C%5Cnabla%20c%7C%5E2%29%20%5C%2C%20d%5COmega%20%5C%3B...%7D#gh-dark-mode-only"">
+        <img width="30%" src="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BWhite%7DE%28c%29%20%3D%20%5Cint_%7B%5COmega%7D%20%28f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%7C%5Cnabla%20c%7C%5E2%29%20%5C%2C%20d%5COmega%20%5C%3B...%7D"> 
     </a>
 </p>
 
@@ -97,8 +97,8 @@ Resolver o sistema acima significa resolver o seguinte problema de otimização:
     <a href="https://latex.codecogs.com/svg.latex?min%20%5C%3B%20%5Cwidetilde%7BE%7D%28c%2C%20u%29%20%3D%20%5Cint_%7B%5COmega%7D%20f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5Cleft%7C%5Cnabla%20c%5Cright%7C%5E2%20&plus;%20%5Ceta%20%5Csigma%28c%2C%20u%29%20%3A%20%5Cepsilon%28u%29%20%5C%2C%20d%5COmega%20%5C%3B...#gh-light-mode-only">
         <img width="45%" src="https://latex.codecogs.com/svg.latex?min%20%5C%3B%20%5Cwidetilde%7BE%7D%28c%2C%20u%29%20%3D%20%5Cint_%7B%5COmega%7D%20f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5Cleft%7C%5Cnabla%20c%5Cright%7C%5E2%20&plus;%20%5Ceta%20%5Csigma%28c%2C%20u%29%20%3A%20%5Cepsilon%28u%29%20%5C%2C%20d%5COmega%20%5C%3B...">
     </a>
-    <a href="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BGray%7D%5Cwidetilde%7BE%7D%28c%2C%20u%29%20%3D%20%5Cint_%7B%5COmega%7D%20f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5Cleft%7C%5Cnabla%20c%5Cright%7C%5E2%20&plus;%20%5Ceta%20%5Csigma%28c%2C%20u%29%20%3A%20%5Cepsilon%28u%29%20%5C%2C%20d%5COmega%20%5C%3B%20...%7D#gh-dark-mode-only">
-        <img width="45%" src="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BGray%7D%5Cwidetilde%7BE%7D%28c%2C%20u%29%20%3D%20%5Cint_%7B%5COmega%7D%20f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5Cleft%7C%5Cnabla%20c%5Cright%7C%5E2%20&plus;%20%5Ceta%20%5Csigma%28c%2C%20u%29%20%3A%20%5Cepsilon%28u%29%20%5C%2C%20d%5COmega%20%5C%3B%20...%7D">
+    <a href="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BWhite%7D%5Cwidetilde%7BE%7D%28c%2C%20u%29%20%3D%20%5Cint_%7B%5COmega%7D%20f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5Cleft%7C%5Cnabla%20c%5Cright%7C%5E2%20&plus;%20%5Ceta%20%5Csigma%28c%2C%20u%29%20%3A%20%5Cepsilon%28u%29%20%5C%2C%20d%5COmega%20%5C%3B%20...%7D#gh-dark-mode-only">
+        <img width="45%" src="https://latex.codecogs.com/svg.latex?%7B%5Ccolor%7BWhite%7D%5Cwidetilde%7BE%7D%28c%2C%20u%29%20%3D%20%5Cint_%7B%5COmega%7D%20f%28c%29%20&plus;%20%5Cfrac%7B%5Clambda%7D%7B2%7D%20%5Cleft%7C%5Cnabla%20c%5Cright%7C%5E2%20&plus;%20%5Ceta%20%5Csigma%28c%2C%20u%29%20%3A%20%5Cepsilon%28u%29%20%5C%2C%20d%5COmega%20%5C%3B%20...%7D">
     </a>
 </p>
 
