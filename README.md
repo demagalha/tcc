@@ -82,7 +82,7 @@ A seguir, um exemplo da solução ao longo do tempo de uma viga em L, restriçã
 O Método dos Elementos Finitos é um dos muitos métodos numéricos existentes para a solução aproximada de equações diferenciais. Praticamente um sinônimo do método (contínuo) de Galerkin, uma boa parte do trabalho foi dedicada a discussão sobre sua implementação aplicada ao problema proposto. Quando foi definido o tema, uma das possibilidades era fazer _toda_ implementação do FEM. Isto é, fazer _todo_ programa que envolveria todo pré-processamento, geração das _shape functions_, montagem das matrizes de rigidez e massa, aplicações das BCs, malha, solução, pós processamento. Uma ideia inicial poderia ser fazer o uso de [outro projeto já desenvolvido aqui](https://github.com/demagalha/IRACEMA). No entanto, um dos grandes empecilhos era o tempo: um semestre de 4 meses para implementar, testar, debugar, e modificar os códigos já existentes seria algo praticamente impossível. 
 
 A alternativa encontrada foi utilizar _solvers_ de código livre existentes que "fariam o trabalho pesado", tais como FreeFem, FEniCS, etc. Restaria "somente" entrar com as formas fracas das equações e utilizar a linguagem de programação suportada por esses solvers para chamar as funções que montariam o problema de finitos e resolveriam o sistema de equações gerados.
->Na verdade não somente definir as formas fracas, mas sim toda uma gama de coisas: foi necessário definir qual método de integração no tempo escolher, além de valores para diversos parâmetros que acabariam pro definir se alguns problemas levariam a um resultado desejado.
+>Na verdade não somente definir as formas fracas, mas sim toda uma gama de coisas: foi necessário definir qual método de integração no tempo escolher, além de valores para diversos parâmetros que acabariam por definir se alguns problemas levariam a um resultado desejado.
 
 ## Desvantagens
 Uma das grandes desvantagens de métodos baseados em modelo de campo de fase está na sua convergência. A taxa de convergência é muitas vezes prejudicada e depende dos parâmetros escolhidos. O tempo empregado pode também se tornar demasiado, como visto no exemplo abaixo.
@@ -91,7 +91,7 @@ Uma das grandes desvantagens de métodos baseados em modelo de campo de fase est
     <img width="45%" src="/img/ex_cahnelasticity.gif"> 
 </p>
 
-Outro problema presente é que, na topologia ótima, há a presença de um ângulo de contato perpendicular entre a borda do contorno e a configuração ótima (sendo portanto um fator limitador aso resultados obtidos). Isso porque as duas condições de contorno a seguir possuem uma interpretação geométrica.
+Outro problema presente é que, na topologia ótima, há a presença de um ângulo de contato perpendicular entre a borda do contorno e a configuração ótima (sendo portanto um fator limitador aos resultados obtidos). Isso porque as duas condições de contorno a seguir possuem uma interpretação geométrica.
 
 <p align="center" width="100%">
     <img width="45%" src="/img/bcs.png"> 
